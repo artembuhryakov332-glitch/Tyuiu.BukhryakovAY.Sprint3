@@ -7,13 +7,13 @@ namespace Tyuiu.BukhryakovAY.Sprint3.Task0.V16.Lib
     {
         public double GetMultiplySeries(int value, int startValue, int stopValue)
         {
-            double res = 0;
+            double res = 1;
             int i;
-            for (i = startValue; i < stopValue; i++)
+            for (i = startValue; i <= stopValue; i++)
             {
-                res *= (value / i);
+                res = res * Math.Pow((double) value / i,3);
             }
-            return res;
+            return Math.Round(res, 3);
         }
     }
 }

@@ -12,7 +12,7 @@ namespace Tyuiu.BukhryakovAY.Sprint3.Task0.V16.Test
             int StopValue = 6;
             int value = 5;
             double res = dataService.GetMultiplySeries(StartValue, StopValue, value);
-            double wait = 0;
+            double wait = 10220.275;
             Assert.AreEqual(wait, res);
         }
     }
