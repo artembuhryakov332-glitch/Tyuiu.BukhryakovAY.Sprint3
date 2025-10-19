@@ -6,7 +6,7 @@ internal class Program
     {
         DataService dataService = new DataService();
         Console.WriteLine("***************************************************************************");
-        Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
+        Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        **");
         Console.WriteLine("***************************************************************************");
         int StartValue = 1;
         int StopValue = 13;
