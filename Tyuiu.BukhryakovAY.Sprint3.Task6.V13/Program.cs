@@ -15,6 +15,6 @@ internal class Program
         Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
         Console.WriteLine("***************************************************************************");
         double res = dataService.GetSumTheDivisors(StartValue, StopValue);
-        Console.WriteLine("Сумму всех делителей больше 8: " + res);
+        Console.WriteLine("Произведение ряда: " + res);
     }
 }

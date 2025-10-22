@@ -8,10 +8,10 @@ namespace Tyuiu.BukhryakovAY.Sprint3.Task6.V13.Test
         public void TestMethod1()
         {
             DataService dataService = new DataService();
-            int Start = 8;
-            int Stop = 17;
-            double wait = 117;
-            double res = dataService.GetSumTheDivisors(Start, Stop);
+            int Start1 = 8;
+            int Stop1 = 17;
+            int wait = 117;
+            int res = dataService.GetSumTheDivisors(Start1, Stop1);
             Assert.AreEqual(wait, res);
         }
     }
