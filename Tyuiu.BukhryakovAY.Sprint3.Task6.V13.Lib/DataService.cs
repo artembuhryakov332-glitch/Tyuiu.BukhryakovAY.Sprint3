@@ -5,7 +5,7 @@ namespace Tyuiu.BukhryakovAY.Sprint3.Task6.V13.Lib
     {
         public int GetSumTheDivisors(int startValue, int stopValue)
         {
-            int sum = 0;    
+            int sum = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
                 for (int k = 1; k <= i; k++)
