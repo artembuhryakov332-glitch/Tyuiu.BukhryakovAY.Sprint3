@@ -10,7 +10,7 @@ namespace Tyuiu.BukhryakovAY.Sprint3.Task5.V13.Lib
             {
                 for(int k = startValue2; k <= stopValue2; k++)
                 {
-                    res = res + (Math.Cos(x) + k / 2);
+                    res = res + (Math.Cos(x) + k / 2.0);
                 }
             }
             return Math.Round(res,3);
