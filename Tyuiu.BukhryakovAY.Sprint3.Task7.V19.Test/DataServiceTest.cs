@@ -8,7 +8,7 @@ namespace Tyuiu.BukhryakovAY.Sprint3.Task7.V19.Test
         public void TestMethod1()
         {
             double[] Wait = new double[11];
-            Wait[0] = 
+            Wait[0] = 1;
         }
     }
 }
