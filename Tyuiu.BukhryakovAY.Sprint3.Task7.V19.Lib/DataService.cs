@@ -12,7 +12,7 @@ namespace Tyuiu.BukhryakovAY.Sprint3.Task7.V19.Lib
             for (int x = startValue; x <= stopValue - 1; x++)
             {
                 NumFunc = (5*x + 2.5)/(Math.Sin(x) - 2) + 2;
-                ArrayRange[Index] = NumFunc;
+                ArrayRange[Index] = Math.Round(NumFunc,2);
                 Index++;
             }
             return ArrayRange;
